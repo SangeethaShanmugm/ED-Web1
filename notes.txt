@@ -48,3 +48,44 @@ list items 3 types
 ol - ordered List
 ul - unordered List
 dl - definition List 
+
+
+Block Level
+------------
+> start from the new line
+> Take whole width of the screen
+> p, div, section
+
+Inline Level
+--------------
+>start in the same line
+> Only take space which is required
+> span, img, a
+
+
+CSS - Cascading style sheet
+=> styling purpose 
+
+
+3 Types
+-------
+1. Inline  - 
+<h1 style="color: red">Hello</h1>
+<p style="color: pink">Hello</p>
+
+2. Internal css - include in heading tag
+<style>
+p{
+    color: blue
+}
+img{
+    height: 200px;
+    width: 200px
+}
+</style>
+
+3. External CSS - fileName.css
+
+
+margin- space outside of the border
+padding- space between content and border

@@ -1,0 +1,40 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center
+}
+
+.card {
+    height: 380px;
+    background-color: skyblue;
+    width: 20%;
+    margin: 2%;
+    overflow: scroll;
+    float: left
+}
+
+
+.card>img {
+    height: 200px;
+    width: 100%
+}
+
+.brown {
+    background-color: peachpuff;
+}
+
+
+.skyblue {
+    background-color: rgb(27, 147, 194);
+}
+
+
+#gray {
+    background-color: rgb(155, 34, 34);
+}
+
+#mainContainer {
+    display: inline-block
+}
