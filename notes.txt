@@ -89,3 +89,10 @@ img{
 
 margin- space outside of the border
 padding- space between content and border
+
+grid-area: grid-row-start / grid-column-start / grid-row-end/grid/column-end
+
+
+SVG
+----
+Scalable vector Graphics

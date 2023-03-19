@@ -10,23 +10,25 @@
         display: grid;
         background-color: skyblue;
         padding: 10px;
-        grid-template-columns: repeat (2, 1fr);
+        grid-template-columns: auto auto auto auto;
         /* column-gap: 40px;
         row-gap:40px; */
-        gap: 50px;
+        gap: 30px;
+        /* justify-content: space-evenly; */
+        height: 500px;
       }
       .grid-container > div {
         background-color: pink;
         border: 1px solid red;
-        padding: 20px;
+        padding: 10px;
       }
-      /* .item1 {
-        grid-column-start: 1;
-        grid-column-end: 3;
+
+      /* grid-area: grid-row-start / grid-column-start / grid-row-end/grid/column-end */
+      .item1 {
+        grid-area: 1/2/7/4;
       }
-      .item4 {
-        grid-row-start: 2;
-        grid-row-end: 4;
+      /* .item4 {
+        grid-row: 2/4;
       } */
     </style>
   </head>
@@ -40,13 +42,13 @@
       <div class="item6">6</div>
       <div class="item7">7</div>
       <div class="item8">8</div>
+      <div class="item9">9</div>
+      <div class="item10">10</div>
+      <div class="item11">11</div>
+      <div class="item12">12</div>
+      <div class="item13">13</div>
+      <!-- <div class="item14">14</div>
+      <div class="item14">15</div> -->
     </div>
-    <iframe
-      src="https://www.edureka.com"
-      style="border: 2; color: black"
-      name="myIframe"
-      width="750"
-      height="500"
-    ></iframe>
   </body>
 </html>
