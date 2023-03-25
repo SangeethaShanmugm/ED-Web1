@@ -96,3 +96,17 @@ grid-area: grid-row-start / grid-column-start / grid-row-end/grid/column-end
 SVG
 ----
 Scalable vector Graphics
+
+
+Bootstrap
+----------
+
+frontend Framework - easy and faster
+templates - forms, button, cards, images carousals
+
+Advantages
+----------
+Easy to use
+Responsive
+Mobile-first approach
+Browser compatibility
