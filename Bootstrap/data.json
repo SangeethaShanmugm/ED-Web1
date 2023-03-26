@@ -1,0 +1,38 @@
+{
+  "employee": [
+    {
+      "fname": "sangeetha",
+      "lname": "shanmugam",
+      "email": "sangi@gmail.com",
+      "password": "123456",
+      "gender": "female",
+      "lang": [
+        "html",
+        "css",
+        "js"
+      ],
+      "region": "India",
+      "id": 1
+    },
+    {
+      "fname": "sangita",
+      "lname": "shanmugam",
+      "email": "sangi@gmail.com",
+      "password": "1234",
+      "gender": "male",
+      "lang": "html",
+      "region": "India",
+      "id": 2
+    },
+    {
+      "fname": "sangeetha",
+      "lname": "shanmugam",
+      "email": "sanju@gmail.com",
+      "password": "1245",
+      "gender": "female",
+      "lang": "html",
+      "region": "India",
+      "id": 3
+    }
+  ]
+}

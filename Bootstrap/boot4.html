@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c4338603d0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="boot.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#devNav"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Developer Funnel</a>
+        </div>
+        <div class="collapse navbar-collapse" id="devNav">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <!-- login& signup -->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <span
+                  class="glyphicon glyphicon-log-in"
+                  style="margin-right: 10px"
+                ></span
+                >Login</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  style="margin-right: 10px"
+                  class="glyphicon glyphicon-user"
+                ></span
+                >Signup</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel -->
+    <div class="container">
+      <div class="carousel slide" id="devCarousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#devCarousel" data-slide-to="0"></li>
+          <li data-target="#devCarousel" data-slide-to="1"></li>
+          <li data-target="#devCarousel" data-slide-to="2"></li>
+          <li data-target="#devCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../Image/scenary1.jpg" alt="scenary1" class="slideImg" />
+          </div>
+          <div class="item">
+            <img src="../Image/scenary2.jpg" alt="scenary2" class="slideImg" />
+          </div>
+          <div class="item">
+            <img src="../Image/Scenery3.jpg" alt="scenary3" class="slideImg" />
+          </div>
+        </div>
+        <a
+          class="left carousel-control"
+          href="#devCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#devCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="container">
+      <h2>Modal Example</h2>
+      <button
+        type="button"
+        class="btn btn-info btn-lg"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
+        Open
+      </button>
+      <!-- Dialog Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"></button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                Cras mattis consectetur purus sit amet fermentum. Cras justo
+                odio, dapibus ac facilisis in, egestas eget quam. Morbi leo
+                risus, porta ac consectetur ac, vestibulum at eros.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-default"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <span class="glyphicon glyphicon-plane" id="icon"></span>
+    <span class="glyphicon glyphicon-edit" id="icon"></span>
+    <span class="glyphicon glyphicon-trash" id="icon"></span>
+    <span class="glyphicon glyphicon-headphones" id="icon"></span>
+    <span class="glyphicon glyphicon-save" id="icon"></span>
+    <hr />
+    <div class="panel panel-primary">
+      <div class="panel-heading">Students</div>
+      <div class="panel-body">
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>Roll No</th>
+              <th>Name</th>
+              <th>Class</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Ekta</td>
+              <td>UI</td>
+              <td>
+                <button type="button" class="btn btn-success">
+                  <span class="glyphicon glyphicon-edit"></span>
+                </button>
+                <button type="button" class="btn btn-danger">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Lokesh</td>
+              <td>Web Development</td>
+              <td>
+                <button type="button" class="btn btn-success">
+                  <span class="glyphicon glyphicon-edit"></span>
+                </button>
+                <button type="button" class="btn btn-danger">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Niraj</td>
+              <td>UI/UX</td>
+              <td>
+                <button type="button" class="btn btn-success">
+                  <span class="glyphicon glyphicon-edit"></span>
+                </button>
+                <button type="button" class="btn btn-danger">
+                  <span class="glyphicon glyphicon-trash"></span>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <hr />
+    <hr />
+    <hr />
+
+    <!-- <img src="../Image//scenary1.jpg" class="img-responsive" alt="scenary" /> -->
+    <div class="row">
+      <div id="first" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <img
+          src="../Image//scenary1.jpg"
+          class="img-responsive"
+          alt="scenary"
+        />
+      </div>
+      <div id="Second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Second</div>
+      <div id="Third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Third</div>
+      <div id="Fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Fourth</div>
+      <div id="Fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Fifth</div>
+      <div id="Sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">Sixth</div>
+      <button class="btn btn-warning btn-teal">Click</button>
+    </div>
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+
+    <!-- nested col -->
+    <div class="row">
+      <div class="col-md-8">.col-md-8</div>
+      <div class="row">
+        <div class="col-md-6">.col-md-6</div>
+        <div class="col-md-6">.col-md-6</div>
+      </div>
+      <div class="col-md-4">.col-md-4</div>
+    </div>
+    <hr />
+
+    <hr />
+    <hr />
+    <hr />
+    <div class="row">
+      <div class="col-sm-6 col-lg-8">.col-sm-6 col-lg-8</div>
+      <div class="col-6 col-lg-4">.col-6 col-lg-4</div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-sm-4">.col-6 col-sm-4</div>
+      <div class="col-6 col-sm-4">.col-6 col-sm-4</div>
+      <div class="col-6 col-sm-4">.col-6 col-sm-4</div>
+    </div>
+    <hr />
+    <hr />
+    <hr />
+  </body>
+</html>
