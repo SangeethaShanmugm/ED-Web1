@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Avenger",
+    "rating": 4.5,
+    "type": "Action"
+  },
+  {
+    "name": "Frozen",
+    "rating": 5,
+    "type": "Animation"
+  }
+]
