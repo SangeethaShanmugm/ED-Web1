@@ -81,17 +81,23 @@ function locationManager() {
     });
   };
 
-  select = document.querySelector("#select");
-  option = "";
+  let select = document.querySelector("#select");
+  let option = "";
 
   for (let x of locationList) {
-    option += `<option value="${x.loc}">${x.loc}</option>`;
+    option += `<option value="${x.id}">${x.city}</option>`;
   }
   select.innerHTML = option;
+
+  let restaurantSelect = document.querySelector("#style");
+  let restaurantOption = "";
+
+  for (let x of restaurantList) {
+    restaurantOption += `<option value="${x.id}">${x.restaurantName}</option>`;
+  }
+  restaurantSelect.innerHTML = restaurantOption;
 }
-
-console.log(locationManager());
-
+locationManager();
 
 // let locationList1 = new locationManager();
 
